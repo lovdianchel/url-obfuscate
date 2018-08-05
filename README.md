@@ -8,21 +8,21 @@ Hanya support Python versi 2.7
 
 Penggunaan Tool
 ```
-obfuscator.py IP/URL
+python obfuscator.py IP/URL
 ```
 Contoh
 ```
-obfuscator.py google.com
+python obfuscator.py google.com
 ```
 ```
-obfuscator.py 127.0.0.1
+python obfuscator.py 127.0.0.1
 ```
 Menggunakan mode berbeda
 ```
-obfuscator.py IP/URL --mode=MODE
+python obfuscator.py IP/URL --mode=MODE
 ```
 ```
-obfuscator.py 127.0.0.1 --mode=hex
+python obfuscator.py 127.0.0.1 --mode=hex
 ```
 Mode yang tersedia 
 ```
