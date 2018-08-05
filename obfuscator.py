@@ -13,7 +13,7 @@ banner = '''
 | Author : Mr. Pixelheartz
 | Url/IP obfuscator
 | Tool untuk meng-obfuscate ip/url
-| e.g. : python2 obfuscator.py google.com --mode=hex
+| e.g. : obfuscator.py google.com --mode=hex
 '''
 
 # -------------------- KONVERSI BILANGAN -------------------------
@@ -101,9 +101,9 @@ def int_undottedHex(integerNum):
 
 def obfuscating(num):
     try:
-        if (args.mode == 'hex'):
+        if (args.mode == 'hex' or args.mode == 'hexa'):
             int_hex(num)
-        elif (args.mode == 'octal'):
+        elif (args.mode == 'octal' or args.mode == 'oct'):
             int_oct(num)
         elif (args.mode == 'undottedInt'):
             int_undottedInt(num)
