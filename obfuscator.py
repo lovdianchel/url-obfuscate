@@ -114,7 +114,7 @@ def obfuscating(num):
         else:
             print "[-] Nothing happened!"
     except KeyboardInterrupt:
-        print "[-] Keluar",
+        print "\n[-] Keluar",
         sys.stdout.flush()
         for i in range(3):
             print ".",
@@ -151,7 +151,7 @@ def main():
         except gaierror:
             print "[!] Gagal mendapatkan IP target.\n"
         except KeyboardInterrupt:
-            print "[-] Keluar",
+            print "\n[-] Keluar",
             sys.stdout.flush()
             for i in range(3):
                 print ".",
