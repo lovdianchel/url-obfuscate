@@ -4,7 +4,7 @@ Tool yang digunakan untuk obfuscate ip/url.
 
 ## Getting Started
 
-Hanya support Python versi 2.7
+Tidak support untuk python versi 3
 
 Penggunaan Tool
 ```
