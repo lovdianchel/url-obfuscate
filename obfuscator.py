@@ -13,7 +13,7 @@ banner = '''
 | Author : Mr. Pixelheartz
 | Url/IP obfuscator
 | Tool untuk meng-obfuscate ip/url
-| e.g. : python obfuscator.py google.com --mode=hex
+| e.g. : python2 obfuscator.py google.com --mode=hex
 '''
 
 # -------------------- KONVERSI BILANGAN -------------------------
