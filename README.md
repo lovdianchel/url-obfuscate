@@ -25,7 +25,7 @@ obfuscator.py IP/URL --mode=MODE
 obfuscator.py 127.0.0.1 --mode=hex
 ```
 Mode yang tersedia 
-
+```
 hex : Heksadesimal
 
 oct : Oktal
@@ -35,7 +35,7 @@ undottedInt : Undotted Integer
 undottedOct : Undotted Oktal
 
 undottedHex : Undotted Heksadesimal
-
+```
 ## Authors
 
 * **Mr Pixelheartz*
